@@ -19,14 +19,20 @@ ul {
     gap: 18px;
 }
 .content {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    flex-direction: columnx;
     background-color: #1f2937;
     color: white;
 
 }
+button {
+    width: 100px;
+
+
+}
 .name {
     font-size: 24px;
+    font-weight: bolder;
 }
 .subtext {
     font-size:  10px; ;
@@ -34,7 +40,8 @@ ul {
 img {
     height: 150px;
     width: 400px;
-    margin-left: 0px ;
+    display: flex;
+    flex-direction: row-reverse;
 }
 .container {
     display: flex;
@@ -45,4 +52,30 @@ img {
     font-size: 36px;
     font-weight: bolder;
 }
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.author {
+    margin-left: 400px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3882F6;
+    color: white;
+    padding: 42px;
+    border-radius: 25px;
+    width: 400px;   
+}
+.text {
+    display: flex;
+    align-items: center;
+}
+
 
