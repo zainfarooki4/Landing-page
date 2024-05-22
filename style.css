@@ -1,0 +1,37 @@
+.First {
+    background-color: #1f2937;
+}
+
+.Header {
+    display: flex;
+    color: white;
+}
+
+.left-head {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right-head {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content-left {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first-button {
+background-color: #3882f6;
+color: white;
+border-radius: 10px;
+padding: 5px;
+width: 100px;
+}
